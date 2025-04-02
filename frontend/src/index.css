@@ -1,0 +1,26 @@
+.body {
+  background-color: linear-gradient(135deg, #EAFBFF, #D0FFF2);
+  /* color: #1e1e1e; */
+  font-family: 'Inter', sans-serif;
+}
+
+.form-section {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+}
+
+.btn-gradient {
+  background: linear-gradient(to right, #36C3FF, #35E4A1);
+  color: white;
+  border: none;
+  padding: 0.75rem 2rem;
+  border-radius: 2rem;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-gradient:hover {
+  opacity: 0.9;
+}

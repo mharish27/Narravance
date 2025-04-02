@@ -1,0 +1,28 @@
+.sidenav-container {
+    width: 20%;
+    min-width: 180px;
+    height: 100vh;
+    background: linear-gradient(135deg, #EAFBFF, #D0FFF2);
+    overflow-y: auto;
+    color: black;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding-top: 10px;
+  }
+  
+  .sidenav-list {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+  }
+  
+  .sidenav-item {
+    padding: 12px 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .sidenav-item:hover {
+    background: hsla(0, 0%, 100%, 0.90);
+
+  }
+  

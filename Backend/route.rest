@@ -1,0 +1,24 @@
+POST http://localhost:8000/api/v1/create_task/queue_test
+Content-Type: application/json
+
+{
+  "provider_A": {
+    "year_from": "2024",
+    "year_to": "2025",
+    "countries": ["USA"],
+    "threat_levels": [4, 5]
+  },
+  "provider_B": {
+    "year_from": "2024",
+    "year_to": "2025",
+    "countries": ["China", "India"],
+    "severity": [5]
+  }
+}
+
+###
+GET http://localhost:8000/api/v1/get_task_names
+
+###
+GET http://localhost:8000/api/v1/get_task/sample_task
+
