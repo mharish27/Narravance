@@ -21,7 +21,8 @@
     transition: 0.3s;
   }
   
-  .sidenav-item:hover {
+  .sidenav-item:hover,
+  .sidenav-item.selected {
     background: hsla(0, 0%, 100%, 0.90);
 
   }
